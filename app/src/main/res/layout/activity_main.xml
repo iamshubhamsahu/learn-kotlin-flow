@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="startSingleNetworkCallActivity"
+            android:visibility="gone"
             android:text="@string/single_network_call"
             android:textColor="@android:color/black" />
 
@@ -37,6 +38,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="gone"
             android:onClick="startRoomDatabaseActivity"
             android:text="@string/room_database"
             android:textColor="@android:color/black" />
@@ -45,6 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="startCatchActivity"
+            android:visibility="gone"
             android:text="@string/catch_error"
             android:textColor="@android:color/black" />
 
@@ -52,12 +55,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="startEmitAllActivity"
+            android:visibility="gone"
             android:text="@string/emit_all_error"
             android:textColor="@android:color/black" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="gone"
             android:onClick="startCompletionActivity"
             android:text="@string/completion"
             android:textColor="@android:color/black" />
@@ -66,6 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="startLongRunningTaskActivity"
+            android:visibility="gone"
             android:text="@string/long_running_task"
             android:textColor="@android:color/black" />
 
@@ -73,6 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="startTwoLongRunningTasksActivity"
+            android:visibility="gone"
             android:text="@string/two_long_running_tasks"
             android:textColor="@android:color/black" />
 
@@ -81,12 +88,14 @@
             android:layout_height="wrap_content"
             android:onClick="startFilterActivity"
             android:text="@string/filter"
+            android:visibility="gone"
             android:textColor="@android:color/black" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="startMapActivity"
+            android:visibility="gone"
             android:text="@string/map"
             android:textColor="@android:color/black" />
 
@@ -94,6 +103,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="startReduceActivity"
+            android:visibility="gone"
             android:text="@string/reduce"
             android:textColor="@android:color/black" />
 
@@ -102,6 +112,7 @@
             android:layout_height="wrap_content"
             android:onClick="startSearchActivity"
             android:text="@string/search"
+            android:visibility="gone"
             android:textColor="@android:color/black" />
 
         <Button
@@ -109,6 +120,8 @@
             android:layout_height="wrap_content"
             android:onClick="startRetryActivity"
             android:text="@string/retry"
+            android:visibility="gone"
+
             android:textColor="@android:color/black" />
 
         <Button
@@ -116,6 +129,7 @@
             android:layout_height="wrap_content"
             android:onClick="startRetryWhenActivity"
             android:text="@string/retry_when"
+            android:visibility="gone"
             android:textColor="@android:color/black" />
 
         <Button
@@ -123,7 +137,9 @@
             android:layout_height="wrap_content"
             android:onClick="startRetryExponentialBackoffActivity"
             android:text="@string/retry_exponential_backoff"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:visibility="gone"
+            />
 
     </LinearLayout>
 </ScrollView>
